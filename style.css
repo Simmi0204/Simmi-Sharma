@@ -1,0 +1,23 @@
+.container {
+  width: 200px;
+  height: 300px;
+  border: 2px solid #000;
+  padding: 10px;
+  float: left;
+}
+
+.item {
+  background-color: #ccc;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.item.dragging {
+  opacity: 0.5;
+}
+
+.success-message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
